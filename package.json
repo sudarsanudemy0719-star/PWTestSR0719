@@ -1,0 +1,18 @@
+{
+  "dependencies": {
+    "playwright": "^1.28.1",
+    "prettier": "^2.8.1"
+  },
+  "name": "playwrightautomation",
+  "version": "1.0.0",
+  "description": "PlayWrightAutoclsmation",
+  "main": "index.js",
+  "scripts": {
+    "tests:chrome": "playwright test --config=playwright.config.js --project=Chromium"
+  },
+  "author": "Sudarsan",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.28.1"
+  }
+}
